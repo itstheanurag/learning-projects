@@ -8,6 +8,7 @@ celcius.addEventListener('change', (event) => {
 });
 
 celcius.addEventListener('input', (event) => {
+   //console.log(event);
    const far =  celciusToFarenheit(parseInt(event.target.value));
 //    console.log(farenheit)
    farenheit.value = far;
