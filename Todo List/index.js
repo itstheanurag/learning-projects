@@ -46,11 +46,10 @@ submitBtn.addEventListener('click', (event) => {
         taskDiv.appendChild(createDivElement)
 
         if (taskDiv.hasChildNodes()) {
-            Array.from(taskDiv.childNodes).forEach((element, index) => {
-                element.setAttribute('class', `task ${index}`);
-                const doneButtons = document.querySelectorAll('#done-button')
-                const deleteButtons = document.querySelectorAll('#delete-button')
-
+            const doneButtons = document.querySelectorAll('#done-button')
+            const deleteButtons = document.querySelectorAll('#delete-button')
+            Array.from(taskDiv.childNodes).forEach((element) => {
+                element.setAttribute('class', `task`);
                 doneButtons.forEach(donebutton => {
                     donebutton.addEventListener('click', (e) => {
                         e.stopImmediatePropagation()
