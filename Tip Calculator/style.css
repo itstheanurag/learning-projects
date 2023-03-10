@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&family=Teko&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Staatliches', cursive;
+    /* font-family: 'Teko', sans-serif; */
+}
+
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #343a40;
+}
+
+.main {
+    width:50%;
+    height: 50%;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.price-input{
+    border: none;
+    background-color: azure;
+}
+
+.heading {
+    font-size: 4rem;
+}
+
+#error {
+    margin: 12px;
+    color: red;
+    font-size: larger;
+}
+
+input {
+    outline: none;
+    background-color: azure;
+    width: 600px;
+    height: 45px;
+    border: 1px solid #343a40;
+    border-radius: 4px;
+    font-size: larger;
+    padding: 8px;
+    margin: 12px;
+}
+
+.hidden {
+    display: none;
+}
