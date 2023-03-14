@@ -40,7 +40,7 @@ startButton.addEventListener('click', () => {
                 }
             }
         }
-        timeContent.innerText = `${hours} : ${minutes} : ${seconds}`;
+        timeContent.innerText = `${hours} hr : ${minutes} min : ${seconds} sec`;
     }
     const idOfInterval = setInterval(time, 1000);
 
@@ -59,7 +59,7 @@ resetButton.addEventListener('click', () => {
     hours = '00'
     minutes = '00'
     seconds = '00'
-    timeContent.innerText = `${hours} : ${minutes} : ${seconds}`;
+    timeContent.innerText = `${hours} hr : ${minutes} min : ${seconds} sec`;
 })
 
 
