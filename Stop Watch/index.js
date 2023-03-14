@@ -18,7 +18,7 @@ startButton.addEventListener('click', () => {
             seconds = '0' + seconds
         }
 
-        if (seconds > 60) {
+        if (seconds > 59) {
             minutes++;
             seconds = 0
 
@@ -27,7 +27,7 @@ startButton.addEventListener('click', () => {
                     minutes = '0' + minutes
                 }
 
-                if (minutes > 60) {
+                if (minutes > 59) {
                     hours++;
                     minutes = 0;
 
