@@ -55,7 +55,6 @@ startButton.addEventListener('click', () => {
 })
 
 resetButton.addEventListener('click', () => {
-
     hours = '00'
     minutes = '00'
     seconds = '00'
